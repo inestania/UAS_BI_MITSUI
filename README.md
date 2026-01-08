@@ -12,7 +12,7 @@ Pada grafik, sumbu horizontal merepresentasikan rasio missing values, yaitu prop
 Meskipun demikian, terdapat beberapa fitur dengan rasio missing values yang relatif tinggi. Keberadaan fitur-fitur tersebut perlu mendapatkan perhatian khusus karena nilai hilang dalam jumlah besar berpotensi memengaruhi akurasi dan stabilitas model prediksi. Dalam konteks pemodelan time series dan machine learning, fitur dengan tingkat missing values yang tinggi dapat menyebabkan bias atau penurunan performa jika tidak ditangani dengan tepat.
 
 Oleh karena itu, analisis ini menjadi dasar dalam menentukan strategi penanganan data hilang, seperti melakukan imputasi menggunakan nilai statistik tertentu atau mempertimbangkan untuk mengecualikan fitur dengan tingkat missing values yang ekstrem. Secara keseluruhan, visualisasi ini berperan penting dalam tahap Exploratory Data Analysis (EDA) untuk memahami kualitas dan karakteristik dataset pasar keuangan global yang digunakan dalam tantangan prediksi komoditas Mitsui.
-<img width="985" height="439" alt="image" src="https://github.com/user-attachments/assets/42154a60-45de-495d-aa44-cb1485a3c375" />
+<img width="806" height="316" alt="image" src="https://github.com/user-attachments/assets/cefc1666-ad02-4b2c-ab3f-7b6a8ec5660b" />
 
 # Time Series Plot of Sample Feature
 Visualisasi Time Series Plot of Sample Feature digunakan untuk memahami pola pergerakan nilai suatu fitur terhadap waktu pada dataset Mitsui Commodity Prediction Challenge. Grafik ini menampilkan perubahan nilai dari satu fitur contoh (sample feature) yang diambil dari data pelatihan (train.csv), di mana sumbu horizontal merepresentasikan indeks waktu (time index) dan sumbu vertikal menunjukkan nilai numerik dari fitur tersebut.
@@ -33,7 +33,7 @@ Model prediksi dibangun menggunakan metode rata-rata bergerak (moving average) d
 Berdasarkan hasil visualisasi, terlihat bahwa kurva prediksi mampu mengikuti pola umum pergerakan nilai aktual, terutama pada tren kenaikan dan penurunan yang terjadi secara bertahap. Namun, pada titik-titik tertentu yang menunjukkan perubahan nilai secara tajam, hasil prediksi cenderung lebih halus dan mengalami keterlambatan (lag) dibandingkan nilai aktual. Kondisi ini merupakan karakteristik umum dari metode moving average yang lebih menekankan kestabilan daripada respons cepat terhadap perubahan mendadak.
 
 Secara keseluruhan, visualisasi ini menunjukkan bahwa model baseline yang digunakan telah mampu menangkap tren utama pada data deret waktu komoditas, meskipun masih memiliki keterbatasan dalam memodelkan volatilitas yang tinggi. Oleh karena itu, hasil ini dapat dijadikan sebagai acuan awal sebelum menerapkan pendekatan pemodelan yang lebih kompleks, seperti model machine learning berbasis lag features atau metode deep learning, guna meningkatkan akurasi prediksi.
-<img width="768" height="326" alt="image" src="https://github.com/user-attachments/assets/228a362f-7e4b-4fd2-a3a3-9a8252bb751f" />
+<img width="806" height="316" alt="image" src="https://github.com/user-attachments/assets/228a362f-7e4b-4fd2-a3a3-9a8252bb751f" />
 
 
 
